@@ -1,0 +1,69 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+
+.card {
+  background-color: #fff;
+  position: absolute;
+  width: 22%;
+  height: 435px;
+  left: 67%;
+  top: 138px;
+
+  border-bottom: 0px solid rgba(28, 110, 164, 0.63);
+  border-radius: 0px 30px 10px 20px;
+}
+.incard {
+  width: 100%;
+  margin: 5%;
+}
+.incard label {
+
+    line-height: 40px;
+    width: 80%;
+    color: #494471;
+
+  font-size: 15px;
+}
+.incard h1 {
+  line-height: 10px;
+
+  font-size: 20px;
+}
+.incard input {
+    line-height: 20px;
+  width: 80%;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+.incard button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  background: #23c967;
+  color: #ffffff;
+  width: 90%;
+  border-radius: 25px;
+  height: 40px;
+}
+.plus{
+    margin-top: 10px;
+}
+#secure{
+    display: flex;
+    justify-content: space-around;
+}
+#secure p{
+    margin-top: -0px;
+
+}
+.fa-lock{
+    position: absolute;
+ margin-left: 10%;
+ margin-top: 4%;
+}

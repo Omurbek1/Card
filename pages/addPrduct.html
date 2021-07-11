@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style/addproduct.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="table-responsive">
+      <div class="table-second">
+        <h1>Adding more products</h1>
+        <p>The more items you check, the better the price.</p>
+        <table class="table table-hover">
+          <tbody>
+            <tr>
+              <td>
+                <input type="radio" name="radios" id="radio1" />
+                <label for="radio1">You safe 36% on each patent check</label>
+                <p>5 products for 80 usd / 16$ for each</p>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="radios" id="radio1" class="green" />
+                <label for="radio1">3 products for 60 usd / 20$ for each</label>
+                <p>You safe 36% on each patent check</p>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="radios" id="radio1" />
+                <label for="radio1">You safe 28% on each patent check</label>
+                <p>You safe 36% on each patent check</p>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="radios" id="radio1" />
+                <label for="radio1">2 products for 44 usd / 22$ for each</label>
+                <p>You safe 36% on each patent check</p>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>
+                <input type="radio" name="radios" id="radio1" />
+                <label for="radio1">1 product for 24.99 usd</label>
+              </td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <a href="/pages/Product.html"><button>Continue</button></a>
+      </div>
+    </div>
+    <script>
+      $('.table tbody tr').click(function (event) {
+        if (event.target.type !== 'radio') {
+          $(':radio', this).trigger('click')
+        }
+      })
+    </script>
+  </body>
+</html>

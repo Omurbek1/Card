@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: blanchedalmond;
+}
+
+.card {
+  background-color: #fff;
+  position: absolute;
+  width: 22%;
+  height: 435px;
+  left: 67%;
+  top: 138px;
+
+  border-bottom: 0px solid rgba(28, 110, 164, 0.63);
+  border-radius: 0px 30px 10px 20px;
+}
+.incard {
+  width: 85%;
+  margin: 5%;
+}
+.incard img {
+  align-items: center;
+  margin: 10%;
+  margin-left: 20%;
+}
+button {
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 5%;
+  margin-left: 7%;
+  font-size: 18px;
+  line-height: 22px;
+  background: #23c967;
+  color: #ffffff;
+  width: 90%;
+  border-radius: 25px;
+  height: 40px;
+}
